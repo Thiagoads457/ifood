@@ -3,12 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
-    
-.container{
-display: grid;
-grid-template-columns: 900px 900px;
-margin: 20px;
-background-color: green;    
-height: 560px;
+body{
+    background-color: #FDEDEE;
 }
 
+       
+    
+
+.container{
+    position: relative;
+ 
+}
+.imagem1{
+    position:absolute;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.login {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: 200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 65em;
+}
+
+
+.facebook {
+    position:absolute;
+    background-color: #6081C7;
+    margin-left: 50px; 
+    margin-top: 190px;   
+    width: 400px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;    
+    border: #6081C7 ;
+    border-radius: 5px;
+    border-width: 0.5px;
+    cursor: pointer;
+}
+
+.google {
+    position:absolute;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 100px;   
+    width: 380px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(107, 99, 99);    
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    
+}
