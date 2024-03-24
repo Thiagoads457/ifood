@@ -12,16 +12,19 @@ body{
 
 .container{
     position: relative;
+    padding: 15px;
  
 }
+
+
 .imagem1{
     position:absolute;
-    margin-left: 200px;
+    margin-left: 320px;
     margin-top: 150px;
 }
 .login {
     width: 500px;
-    height: 500px;
+    height: 490px;
     position: absolute;
     margin-top: 200px;
     background-color: #fff;
@@ -30,12 +33,40 @@ body{
     margin-left: 65em;
 }
 
+h1{
+    position: absolute;
+    margin-top: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 90px;
+    color: #414143;
+  
+
+}
+
+h2{
+    position: absolute;
+    margin-top: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 80px;
+    color: #414143;
+}
+h4{
+    position: absolute;
+    margin-top: 150px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 130px;
+    color: #414143;
+}
+
 
 .facebook {
     position:absolute;
     background-color: #6081C7;
     margin-left: 50px; 
-    margin-top: 190px;   
+    margin-top: 220px;   
     width: 400px;
     height: 50px;
     font-family: sans-serif;
@@ -46,6 +77,10 @@ body{
     border-radius: 5px;
     border-width: 0.5px;
     cursor: pointer;
+    background-image: url('imagens/iface.png');
+    background-repeat: no-repeat;
+    background-position: left;
+
 }
 
 .google {
@@ -55,7 +90,7 @@ body{
     margin-right: auto;
     left: 0;
     right: 0;
-    bottom: 100px;   
+    bottom: 160px;   
     width: 380px;
     height: 40px;
     font-family: sans-serif;
@@ -63,8 +98,53 @@ body{
     font-weight: bold;
     color: rgb(107, 99, 99);    
     border: 1px solid #BDBDBD;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
     cursor: pointer;
+    background-image: url('imagens/igoogle.png');
+    background-repeat: no-repeat;
+    background-position: center right 10px;
     
+    
+}
+
+.celular {
+    position:absolute;
+    background-color:white;
+    margin-left: 50px;
+    bottom: 70px;   
+    width: 190px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(189, 183, 183);    
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.email {
+  
+    position:absolute;
+    background-color:white;
+    margin-left: 260px;
+    bottom: 70px;   
+    width: 190px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(189, 183, 183);    
+    border: 1px solid #BDBDBD;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo{
+    position: absolute;
+    padding: 20px;
+}
+
+h1{
+    position: absolute;
 }
