@@ -1,20 +1,52 @@
 body{
-    display: grid;
+   margin: 0;
+   height: 100vh;
 }
-                
+
 header{
-    background-color: aqua;
+display: grid;
+grid-template-columns: 2fr 5fr 2fr;   
+background-color:#EB0033;
+height: 15vh;
+
+grid-column: 1/5;
+ 
 }
 
-section{
-    background-color: chartreuse;
-}
-footer{
-    background-color: blueviolet;
+header div{
+width: 5vw;
+grid-column: 1/2;
+align-self: center;
+justify-self: end;
+
+
+}   
+header ul{
+display: flex;   
+grid-column: 2/5;
+height: 5vh;
+align-self: center;
+
 }
 
-    
+header ul li{
+   align-self: center;
+   justify-self: start;
+   list-style: none;
+   margin: 0 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   font: ;
 
+}
+
+header ul li:last-child{
+   background-color: #fff;
+   margin-left: 15vh;
+   font-family: Arial, Helvetica, sans-serif;
+}
+  
    
    
 
+             
