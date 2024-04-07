@@ -1,56 +1,19 @@
-
-    
-    .container{
-        display: flex;
-        width: 100%;
-        height: 50vh;
-        background-color: blue;
-        align-items: center;
-        
-        
-
-    }
-    .header {
-    display: flex;
-    margin-left: 50vh;
-    width: 100%;
-    height: 50%;
-    background-color:aqua;
-    justify-content: center;
-    
-    
-      
-    }
-
-    .header img{
-        margin-top: 10px;
-        margin-right: 200px;
-        width: 100px;
-        height: auto;
-        background-color: black;
-      
-    }
-
-    .header ul{
-        display: flex;
-        height: 50px;
-            
-        
-    }
-
-    .header ul li{
-    
-        list-style: none;
-        margin: 10px;
-        justify-content: start;
-        align-items: center;
-
-        
-        background-color: yellow;
-
+body{
+    display: grid;
+}
                 
+header{
+    background-color: aqua;
+}
 
-    }
+section{
+    background-color: chartreuse;
+}
+footer{
+    background-color: blueviolet;
+}
+
+    
 
    
    
