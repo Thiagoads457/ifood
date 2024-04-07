@@ -5,18 +5,18 @@ body{
 
 header{
 display: grid;
-grid-template-columns: 2fr 5fr 2fr;   
+grid-template-columns: 2fr 5fr 3fr;   
 background-color:#EB0033;
-height: 15vh;
-
+height: 25vh;
 grid-column: 1/5;
  
 }
 
 header div{
-width: 5vw;
+width: 4vw;
+margin-top: 20px;
 grid-column: 1/2;
-align-self: center;
+align-self:auto;
 justify-self: end;
 
 
@@ -25,7 +25,7 @@ header ul{
 display: flex;   
 grid-column: 2/5;
 height: 5vh;
-align-self: center;
+align-self: auto;
 
 }
 
@@ -33,18 +33,30 @@ header ul li{
    align-self: center;
    justify-self: start;
    list-style: none;
-   margin: 0 40px;
+   margin: 0 25px;
    font-family: Arial, Helvetica, sans-serif;
-   font-weight: 600;
-   font: ;
+   font-weight:bolder;
+   color: white
 
 }
 
 header ul li:last-child{
    background-color: #fff;
-   margin-left: 15vh;
+   margin-left: 25vh;
    font-family: Arial, Helvetica, sans-serif;
+   color: #EB0033;
+   padding: 15px 28px;
+   border-radius: 5px;
+   font-weight: 600;
 }
+
+.minha-secao {
+   display: grid;
+   background-color: black;
+   height: 200vh;
+}
+
+
   
    
    
