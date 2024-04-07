@@ -179,7 +179,7 @@ header ul li:last-child{
    background-color:#fff;
    grid-template-columns: 34vh 670px 600px 1fr;
    grid-template-rows: 80px 1fr 40px 1fr;
-   height: 62vh;
+   height: 59vh;
    column-gap: 1px 1px 50px 1px;
 }
 
