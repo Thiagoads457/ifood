@@ -173,60 +173,7 @@ header ul li:last-child{
    
  }
 
- .section3 {
-   display: grid;
-   margin-top: 0vh;
-   background-color:#fff;
-   grid-template-columns: 34vh 670px 600px 1fr;
-   grid-template-rows: 80px 1fr 40px 1fr;
-   height: 59vh;
-   column-gap: 1px 1px 50px 1px;
-}
-
- .section3 h1{
-   display: flex;
-   grid-column: 3/4;
-   margin-top: 0;
-   grid-row: 1/2;
-   justify-self: start;
-   font-size: 2.5rem;
-   font-family: Arial, Helvetica, sans-serif;
-   color:#EB0033
-   
- }
  
- .section3 h3{
-   display: flex;
-   margin-bottom: 0px;
-   grid-column: 3/4;
-   grid-row: 2/3;
-   align-items: start;
-   justify-self: end;
-   align-self: start;
-   font-size: 1.2rem;
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: lighter;
-   line-height: 2.0rem;
-   color:black;
-  
- }
- 
- .section3 span{
-   display: flex;
-   grid-column: 3/4;
-   grid-row: 3/4;
-   background-color:#EB0033;
-   font-family: Arial, Helvetica, sans-serif;
-   align-items: center;
-   justify-content: center;
-   align-self: center;
-   border-radius: 5px;
-   font-weight: 100;
-   color:#fff;
-   height: 6vh;
-   width: 30vh;
-   
- }
 
  .section3 img{
    grid-column: 2/3;
@@ -236,7 +183,44 @@ header ul li:last-child{
    
  }
 
+ /* Media query para telas menores que 768px */
+@media (max-width: 768px) {
   
+  
+  
+  header {
+      grid-template-columns: 1fr; /* Alinhe os itens em uma coluna */
+      text-align: center; /* Centralize os itens */
+  }
+
+ 
+  .section1, .section2, .section3 {
+      grid-template-columns: 1fr; /* Alinhe os itens em uma coluna */
+      text-align: center; /* Centralize os itens */
+  }
+
+  
+  .section1 img, .section2 img, .section3 img {
+      width: 100%; /* Ajuste a largura das imagens */
+      height: auto; /* Permita que a altura das imagens se ajuste automaticamente */
+      margin: 0 auto; /* Centralize as imagens */
+  }
+
+  
+  .section1 h1, .section2 h1, .section3 h1,
+  .section1 h3, .section2 h3, .section3 h3,
+  .section1 span, .section2 span, .section3 span {
+      width: 100%; /* Ocupa a largura total */
+      text-align: center; /* Centraliza os textos */
+      margin: 10px 0; /* Adiciona margem para separar os elementos */
+  }
+
+  
+  .section1 span, .section2 span, .section3 span {
+      width: 100%; /* Ocupa a largura total */
+  }
+}
+
    
    
 
